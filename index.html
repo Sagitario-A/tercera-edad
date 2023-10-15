@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 3ra edad</title>
+</head>
+<body>
+    <h1>Formulario tercera edad</h1>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <br><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required>
+        
+        <br><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+        
+        <br><br>
+
+        <label>Género:</label>
+       
+        <br>
+
+        <input type="radio" id="masculino" name="genero" value="Masculino">Masculino
+        
+        <br>
+
+        <input type="radio" id="femenino" name="genero" value="Femenino">Femenino
+        
+        <br>
+
+        <input type="radio" id="otro" name="genero" value="Otro">Otro<br><br>
+
+        <label for="viejo">Me siento viejuner:</label>
+        <input type="checkbox" id="viejo" name="viejuner">
+        
+        <br><br>
+
+        <label for="descripcion">Escribe algo sobre ti:</label>
+        <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+
+        <h3>Tus circunstancias:</h3>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h1>Formulario Robo de Bicis</h1>
+
+    <label for="dia">Día:</label>
+    <input type="date" id="dia" name="dia" required>
+
+    <br><br>
+
+    <label for="hora">Hora:</label>
+    <input type="time" id="hora" name="hora" required> 
+
+    <br><br>
+
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="color">
+
+    <br><br>
+
+    <label for="rango">Rango de precios: (0€ a 10.000€)</label>
+    <input type="range" id="rango" name="rango" min="0" max="10000">
+
+    <br><br>
+
+    <label for="tipo">Tipo de bicicleta:</label>
+    <select name="tipo" id="tipo" required>
+
+        <option value="">-Selecciona una opción-</option>
+
+        <optgroup label="Paseo">
+            <option value="Señorial">Señorial</option>
+            <option value="Anti-plebeyos">Anti-plebeyos</option>
+            <option value="PorEncimaDelHombro">PorEncimaDelHombro</option>
+        </optgroup>
+
+        <optgroup label="Montaña">
+            <option value="Gamusinos">Gamusinos</option>
+            <option value="HuelefloresPremium">Hueleflores premium</option>
+            <option value="Fango lover">Fango lover</option>
+        </optgroup>
+
+        <optgroup label="Carreras">
+            <option value="Metroymedio">Metroymedio</option>
+            <option value="3deLaTarde">3 de la tarde (fluorescente edition)</option>
+            <option value="Grupitors">Grupitors</option>
+        </optgroup>
+        
+    </select>
+
+    <br><br>
+
+
+
+    <h3>Accesorios:</h3>
+
+    <label for="ruedines">Ruedines</label>
+    <input type="checkbox" id="ruedines" name="ruedines">
+
+    <br>
+    
+    <label for="pegatinas">Pegatinas</label>
+    <input type="checkbox" id="pegatinas" name="pegatinas">
+
+    <br>
+
+    <label for="Cestita">Cestita</label>
+    <input type="checkbox" id="Cestita" name="Cestita">
+    
+    <br>
+
+    <label for="bombaDeAire">Bomba de aire</label>
+    <input type="checkbox" id="bombaDeAire" name="bombaDeAire">
+
+    <br>
+
+    <label for="Timbre">Timbre</label>
+    <input type="checkbox" id="Timbre" name="Timbre">
+
+    <br>
+
+    <label for="Foco">Foco</label>
+    <input type="checkbox" id="Foco" name="Foco">
+
+    <br><br>
+
+    <label for="marca"><h3>¿Que marca era?</h3></label>
+    <br>
+    <select name="marca" id="marca" required>
+        <option value="">-Selecciona-</option>
+        <option value="specialized">Specialized</option>
+        <option value="trek">Trek</option>
+        <option value="merida">Merida</option>
+        <option value="scott">Scott</option>
+        <option value="giant">Giant</option>
+        <option value="cube">Cube</option>
+    </select>
+
+
+    <br><br>
+
+    
+
+    <input type="submit" value="Enviar">
+
+</body>
+</html>
